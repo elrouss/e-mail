@@ -1,0 +1,148 @@
+<mjml>
+  <mj-head>
+    <mj-title>Apple Letter</mj-title>
+    <mj-preview>Apple Letter</mj-preview>
+    <mj-style>
+      h1 {
+        all: inherit;
+      }
+
+      .up {
+        margin-bottom: 5px;
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 12px;
+        color: #ffffff;
+      }
+
+      .value {
+        margin-bottom: 10px;
+        font-family: Verdana;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 36px;
+        color: #ffffff;
+      }
+
+      .advantages {
+        margin-bottom: 0;
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 12px;
+        color: #ffffff;
+      }
+
+      .link-bottom {
+        font-size: 10px;
+        line-height: 12px;
+        color: #51ACFF;
+        text-decoration: none;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="640px">
+    <mj-section padding="0" background-color="#313131">
+      <mj-column>
+        <mj-image src="./assets/images/logo.png" width="24px" align="center" padding="24px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#141415">
+      <mj-column>
+        <mj-text align="center" padding="50px 30px 0" font-family="Verdana" font-size="40px" font-weight="bold" line-height="49px" color="#ffffff">
+          <h1>Our most stunning take on post-production</h1>
+        </mj-text>
+
+        <mj-button css-class="link" font-family="Berdana" font-weight="bold" font-size="15px" line-height="18px" color="#51ACFF" background-color="transparent" href="https://yandex.ru/">
+          Buy now
+
+          <img src="./assets/images/arrow-right.png" />
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#141415">
+      <mj-column>
+        <mj-image src="./assets/images/mac.png" alt="" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0" background-color="#141415">
+      <mj-section padding="0 0 50px">
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+
+            <div class="value">3.2x</div>
+
+            <div class="advantages">faster render</div>
+          </mj-text>
+
+          <mj-image src="./assets/images/line.png" align="left" />
+        </mj-column>
+
+
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+
+            <div class="value">8+</div>
+
+            <div class="advantages">streams of 4k video</div>
+          </mj-text>
+
+          <mj-image src="./assets/images/line.png" align="left" />
+        </mj-column>
+
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+
+            <div class="value">2x</div>
+
+            <div class="advantages">faster running time</div>
+          </mj-text>
+
+          <mj-image src="./assets/images/line.png" align="left" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="#313131">
+      <mj-group width="150px">
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="https://yandex.ru">
+            <img src="./assets/images/fb.png">
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="https://yandex.ru">
+            <img src="./assets/images/twitter.png">
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="https://yandex.ru">
+            <img src="./assets/images/inst.png">
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0 40px 48px" background-color="#313131">
+      <mj-column>
+        <mj-text font-family="Verdana" font-size="10px" font-weight="normal" line-height="18px" align="center" color="#7d7d7d">
+          All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+        </mj-text>
+
+        <mj-text font-family="Verdana" font-size="10px" font-weight="normal" line-height="18px" align="center" color="#7d7d7d">
+          This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a class="link-bottom" href="https://yandex.ru">here</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
