@@ -1,0 +1,88 @@
+<mjml html lang="en">
+    <mj-head>
+        <mj-preview>
+            Experience Tokyo's Nightlife
+        </mj-preview>
+
+        <mj-title>You could win a trip to Tokyo!</mj-title>
+
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500" />
+
+        <mj-attributes>
+            <mj-all font-family="Montserrat, Arial, Helvetica, sans-serif" />
+            <mj-text font-weight="300" font-size="14px" line-height="20px" align="center" color="#212121"></mj-text>
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body width="608px" background-color="#fff">
+        <mj-section>
+            <mj-column>
+                <mj-text font-weight="500" color="#212121">
+                    NOMAD TRAVEL TIPS
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-url="https://plus.unsplash.com/premium_photo-1723983556109-7415d601c377?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <mj-column>
+                <mj-text font-size="48px" line-height="48px" color="#fff">
+                    Experience Tokyo's Nightlife
+                </mj-text>
+
+                <mj-button border-radius="8px" background-color="#212121" href="#">
+                    FIND OUT IF YOU COULD WIN!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="22px">
+                    You could win a trip to Tokyo!
+                </mj-text>
+
+                <mj-text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque ex delectus minima libero labore maxime quibusdam molestiae eos sunt ut esse expedita, molestias impedit consectetur laborum nostrum deserunt beatae.
+                    <br></br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque ex delectus minima libero labore maxime quibusdam molestiae eos sunt ut esse expedita, molestias impedit consectetur laborum nostrum deserunt beatae.
+                </mj-text>
+
+                <mj-button border-radius="8px" background-color="#df0000" href="#">
+                    BECOME A PATRON TODAY
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section border-radius="8px" background-color="#f6f6f6">
+            <mj-column>
+                <mj-image src="./assets/tokyo.jpg" alt="Tokyo skyline" border-radius="8px" width="200px" />
+            </mj-column>
+
+            <mj-column>
+                <mj-text font-size="20px">
+                    Tokyo Travel Tips
+                </mj-text>
+
+                <mj-text>
+                    Travelling to Tokyo soon? We've got you cover with the most popular tips shared by the NTT community
+                </mj-text>
+
+                <mj-text>
+                    <a href="#" style="color: #212121;">Read our Tokyo travel guide</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="10px" line-height="14px">
+                    Nomad Travel Tips
+                    <br></br>
+                    86 South Street, West London, W16 7KA
+                    <br></br>
+                    You have received this email because you subscribed to the NTT monthly newsletter. If you'd prefer not to receive updates, you can <a href="#" style="color: #212121;">unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
